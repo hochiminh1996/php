@@ -17,3 +17,9 @@
 <h2>Ecossistema de Bibliotecas e Frameworks</h2>
 <p align="justify">O PHP possui um rico ecossistema de bibliotecas e frameworks que facilitam o desenvolvimento de aplicativos web de alta qualidade. Alguns exemplos populares incluem o Laravel, Symfony e CodeIgniter, que fornecem estruturas sólidas para o desenvolvimento ágil e seguro. Além disso, bibliotecas como o Composer permitem aos desenvolvedores gerenciar facilmente as dependências de seus projetos.
 </p>
+
+<h2>Conclusão</h2>
+<p align="justify">O PHP é uma linguagem de programação poderosa e versátil, especialmente no contexto do desenvolvimento web. Sua facilidade de aprendizado, compatibilidade com diferentes sistemas e servidores, bem como sua vasta comunidade de desenvolvedores, fazem dele uma escolha sólida para a criação de aplicações web dinâmicas e funcionais. Se você está acompanhando o curso do Professor Guanabara, está no caminho certo para dominar essa linguagem e criar incríveis projetos web. Continue explorando e praticando, e você verá como o PHP pode ser uma ferramenta valiosa em sua jornada como desenvolvedor web.
+</p>
+
+

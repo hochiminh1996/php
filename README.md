@@ -1,5 +1,8 @@
 # Introdução ao PHP
 <p align="justify">O PHP (Hypertext Preprocessor) é uma linguagem de programação amplamente utilizada no desenvolvimento web. Criada por Rasmus Lerdorf em 1994, o PHP rapidamente se tornou uma das linguagens mais populares para a construção de sites dinâmicos e aplicativos web. Até hoje, é uma escolha confiável para desenvolvedores que buscam criar aplicações web robustas e flexíveis.
+  <div align="center" style="">
+  <img src="https://github.com/hochiminh1996/php/blob/master/Introdu%C3%A7%C3%A3o%20ao%20PHP/Modulo%2001/elephant.png" style="width:300px;">
+  </div>
 </p>
 
 <h2>Facilidade de Aprendizado</h2>

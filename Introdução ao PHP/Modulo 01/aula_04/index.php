@@ -15,7 +15,7 @@
         Por outro lado, informações client-side são enviadas do servidor para o client automaticamente.
 
      -->
-    <?php
+    <?
     date_default_timezone_set("America/Sao_Paulo");
     // definindo nossa timezone : gmt-3;
 

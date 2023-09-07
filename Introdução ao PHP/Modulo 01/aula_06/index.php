@@ -42,14 +42,20 @@
     var_dump($paises);
 
 
-    class Pessoa{
+    class Pessoa
+    {
         private string $nome;
         private int $idade;
+
+        public function __construct(string $nome = null, int $idade = null)
+        {
+           
+        }
     }
 
     $p = new Pessoa;
     echo "\n";
-    
+
     var_dump($p);
 
 

@@ -57,7 +57,7 @@ form {
     border-radius: 5px;
 }
 
-#btn {
+.btn {
     padding: 10px;
     background-color: #0D1117;
     cursor: pointer;
@@ -66,10 +66,11 @@ form {
     border: 1px solid #010409;
     color: rgba(255, 255, 255, .5);
     border-radius: 5px;
+    margin-bottom: .2em;
 
 }
 
-#btn:hover {
+.btn:hover {
     background-color: #010409;
     color: white;
     /* font-weight: bold; */

@@ -34,6 +34,9 @@
 
         echo var_dump("1"+"2");
         // o php irá forçar uma conversão da string par número, resultando em 3.
+
+        echo "<br>".(5**3);
+
     ?>
 </body>
 </html>

@@ -11,18 +11,22 @@
 <body>
     <main>
         <section>
-            <h2>Conversor:</h2>
-            <p>
+            <h2>Analisador de Número Real:</h2>
+
+            <ul>
+
                 <?php
-                echo "R$: " . $_GET['real'] . "<br>";
+                $num = $_GET['real'];
+                $inteiro = intval($num);
+
+                echo "<li>Valor inteiro: " . $inteiro . "</li>";
+                echo "<li>Valor real: " . sprintf("%.3f",  $num - $inteiro) . "</li>";
 
                 ?>
-            </p>
-            <p class="dolar">
-                <?php
-                echo "US$: " . sprintf("%.2f", ($_GET['real'] / 4.98));
-                ?>
-            </p>
+
+            </ul>
+
+
             <a href="javascript:history.go(-1)"><input type="button" value="Voltar" id="btn"></a>
 
         </section>

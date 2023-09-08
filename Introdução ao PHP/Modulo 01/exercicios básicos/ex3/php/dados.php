@@ -12,18 +12,19 @@
     <main>
         <section>
             <h2>Conversor:</h2>
-            <p>
-                <?php
-                echo "R$: " . $_GET['real'] . "<br>";
+            <?php
+            $padrao = numfmt_create("pt_BR", NumberFormatter::CURRENCY);
+            // criando um padrão p/ exibir a sigla da moeda de acordo com os padrões internacionais
 
-                ?>
-            </p>
-            <p class="dolar">
-                <?php
-                echo "US$: " . sprintf("%.2f", ($_GET['real'] / 4.98));
-                ?>
-            </p>
-            <a href="javascript:history.go(-1)"><input type="button" value="Voltar" id="btn"></a>
+            echo "<p>Valor real: " . numfmt_format_currency($padrao, $_GET['real'] ?? 0, "BRL");
+            //
+
+
+            echo "<p class=\"dolar\">Valor em dólar: " . numfmt_format_currency($padrao, $_GET['real'] / 4.98 ?? 0, "USD");
+
+            ?>
+
+            <input type="button" value="Voltar" id="btn" onclick="javascript:history.go(-1)">
 
         </section>
     </main>

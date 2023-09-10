@@ -16,11 +16,11 @@
             <ul>
 
                 <?php
-                $num = $_GET['real'];
-                $inteiro = intval($num);
+                    $num = $_GET['real']?? 0;
+                    $inteiro = intval($num);
 
-                echo "<li>Valor inteiro: " . $inteiro . "</li>";
-                echo "<li>Valor real: " . sprintf("%.3f",  $num - $inteiro) . "</li>";
+                    echo "<li>Valor inteiro: " . $inteiro . "</li>";
+                    echo "<li>Valor real: " . sprintf("%.3f",  $num - $inteiro) . "</li>";  
 
                 ?>
 

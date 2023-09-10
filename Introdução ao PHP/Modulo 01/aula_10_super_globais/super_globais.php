@@ -27,10 +27,10 @@
             
             */
 
-            setcookie("dia","segunda", time() + 3600);  
+            setcookie("dia", "segunda", time() + 3600);
             //Criando um cookie com o identificador dia da semana, com o valor sábado e com duração de 1h = 3600s
 
-            session_start();//iniciando uma sessão
+            session_start(); //iniciando uma sessão
             $_SESSION['teste'] = "Funcionou";
 
             echo "<h2>Superglobais</h2>";
@@ -47,19 +47,18 @@
             var_dump($_REQUEST);
             // o request está pegando os dados do post e get juntando tudo em um único aray.
 
-            echo "<h2>SERVER</h2>";
-            var_dump($_SERVER);
-
-
-            echo "<h2>GLOBALS</h2>";
-            var_dump($GLOBALS);
-
 
             echo "<h2>Cookie</h2>";
             var_dump($_COOKIE);
 
             echo "<h2>Session</h2>";
             var_dump($_SESSION);
+
+            echo "<h2>SERVER</h2>";
+            var_dump($_SERVER);
+
+            echo "<h2>GLOBALS</h2>";
+            var_dump($GLOBALS);
             ?>
         </pre>
 

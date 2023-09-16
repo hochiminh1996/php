@@ -22,7 +22,7 @@ section#principal {
     flex-direction: column;
     width: 500px;
     align-items: center;
-    border: 1px solid #d9d9d9;
+    border: 1px solid;
     margin: 0 auto;
     height: 50vh;
     justify-content: center;
@@ -85,7 +85,7 @@ input[type='number'] {
 
 #resultado {
     width: 500px;
-    border: 1px solid #d9d9d9;
+    border: 1px solid;
     height: auto;
     border-top: none;
     padding: 10px;

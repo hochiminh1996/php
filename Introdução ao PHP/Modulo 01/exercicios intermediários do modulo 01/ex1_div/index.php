@@ -12,7 +12,7 @@
 <body>
     <?php
     $dividendo = $_GET['dividendo'] ?? 0;
-    $divisor = $_GET['divisor'] ?? 0;
+    $divisor = $_GET['divisor'] ?? 1;
 
 
 

@@ -2,6 +2,11 @@
 <p align="justify">Aprender PHP com o professor Gustavo Guabanara é uma experiência enriquecedora e inspiradora. Com sua expertise e abordagem didática, você dominará a linguagem de programação PHP, capacitando-se para criar aplicações web dinâmicas e funcionais.
 </p>
 
+- [X] Módulo I
+- [ ] Módulo II (Aguardando lançamento)
+- [ ] Módulo III (Aguardando lançamento)
+- [ ] Módulo IV (Aguardando lançamento)
+
 <h2>Sobre o PHP</h2>
 <p align="justify">O PHP (Hypertext Preprocessor) é uma linguagem de programação amplamente utilizada no desenvolvimento web. Criada por Rasmus Lerdorf em 1994, o PHP rapidamente se tornou uma das linguagens mais populares para a construção de sites dinâmicos e aplicativos web. Até hoje, é uma escolha confiável para desenvolvedores que buscam criar aplicações web robustas e flexíveis.
   <div align="center" style="">
